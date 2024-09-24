@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --cols: calc(100% / 12)
+}
+
+body {
+    background-color: #333;
+
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    padding: 2px 5px;
+}
+
+/* maergin end padding */
+
+.pt-30 {
+    padding-top: 30px;
+
+}
+
+.mp-10 {
+    margin-top: 10px;
+
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.col-lg-4 {
+    width: calc(var(--cols) * 4);
+    padding: 0 6px;
+
+}
+
+
+.col-lg-12 {
+    width: 100%;
+    padding: 0px 6px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    border: none;
+    background: none;
+    outline: none;
+
+    padding: 12px 24px;
+
+    font-size: 16px;
+
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: rgba(0, 0, 255, 0.811);
+    color: white;
+
+}
+
+.bnt-danger {
+    background-color: rgba(255, 0, 0, 0.842);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    border: solid 2px rgb(255, 0, 0);
+    cursor: pointer;
+
+}
+
+.btn-success {
+    background-color: rgba(128, 255, 0, 0.799);
+}
+
+.btn-wroing {
+    background-color: rgba(255, 145, 0, 0.772);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    border: solid 2px rgb(255, 145, 0);
+    cursor: pointer;
+}
+.col-lg-6{
+    width: calc(var(--cols) * 6);
+    padding: 0 6px;
+
+}
+/* maergin end padding */
+
+.from-lable {
+    margin-bottom: 12px;
+    color: white;
+    display: inline-block;
+
+}
+
+.form_control {
+    width: 100%;
+    padding: 4px;
+    border: 2px solid #f9e6e6;
+
+}
+
+.form_control:focus-visible {
+    outline: none;
+    border-color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.color{
+    color: white;
+}
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
+
+}
+
+.card-body {
+    padding: 8px;
+}
+.card-text{
+    font-weight: 900;
+    font-size:15px;
+    /* text-align: center; */
+
+}
+.mb-30{
+    margin-bottom: 30px;
+    color: white;
+}
+
+.img-card-top {
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+}
+
+@media (max-width:992px) {
+    .col-md-6 {
+        width: calc(var(--cols) * 6);
+    }
+
+}
+
+@media (max-width:767px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .col-12 {
+        width: calc(var(--cols) * 12);
+    }
+   
+
+}
